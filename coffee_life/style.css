@@ -1,0 +1,103 @@
+.heading{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    position: sticky;
+    top: 0;
+    margin-bottom: 30px;
+
+}
+
+h2{
+    margin-right: 45px;
+}
+
+.heading a{
+    color:white;
+    text-decoration: inherit;
+}
+.heading .left{
+    margin-left: 10px;
+}
+ /* .heading .right{
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    gap: 7px;
+   
+} */
+
+
+nav{
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    gap: 7px;  
+    font-size: 20px;
+}
+
+a:visited{
+    color: rgb(111, 196, 31);
+}
+
+a:hover{
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline rebeccapurple;
+}
+
+
+a:active{
+    background-color: rgb(73, 49, 95);
+    font-style: italic;
+}
+
+
+
+
+
+.hero{
+    color: white;
+    height: 400px;
+    background-image: url("./img/compliance-blog.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+.heroContent{
+    margin: 50px;
+}
+.hero .heroH1{
+    display: flex;
+}
+.heroH1 .highlighted{
+    color: orange;
+}
+.main{
+    margin: 0;
+}
+.content .section{
+    height: 300px;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.title{
+    font-weight: bold;
+}
+
+.content{
+    margin: 200px 200px 200px;
+}
+
+
+
+
