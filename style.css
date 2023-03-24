@@ -7,7 +7,7 @@
     color: white;
     position: sticky;
     top: 0;
-    margin-bottom: 30px;
+    
 
 }
 
@@ -30,8 +30,10 @@ h2{
    
 } */
 
-
-nav{
+.nav a:visited{
+    color: white;
+}
+.nav{
     display: flex;
     margin-right: 40px;
     align-items: center;
@@ -39,20 +41,16 @@ nav{
     font-size: 20px;
 }
 
-a:visited{
-    color: rgb(111, 196, 31);
+li a:visited,li a{
+    color: blue;
 }
-
-a:hover{
-    color: blueviolet;
-    font-weight: bold;
-    text-decoration: underline rebeccapurple;
+li a:hover{
+    text-decoration: underline;
 }
-
-
-a:active{
-    background-color: rgb(73, 49, 95);
+li a:active{
     font-style: italic;
+    border:1cm;
+    border-color: burlywood;
 }
 
 
@@ -85,17 +83,30 @@ a:active{
 }
 .content .section{
     height: 300px;
+    width: 280px;
 }
-.content{
+.content .section-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.6em;
+    margin: 10px;
+    margin: 100px;
 }
 .title{
     font-weight: bold;
+    font-size: 30px;
 }
 
-.content{
-    margin: 200px 200px 200px;
+
+.section ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    white-space: nowrap;
+    font-size: 21px;
+}
+.section a{
+    text-decoration: none;
 }
 
 
