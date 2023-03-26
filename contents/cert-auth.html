@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coffee Life</title>
+</head>
+<body>
+    <div class="heading">
+        <div class="left">
+            <a href="../index.html"><h2>Coffee Life</h2></a>
+        </div>        
+        <div class="nav">
+            <a href="../headers/support.html">Support</a>
+            |
+            <a href="../headers/copyright.html">Copyright</a>
+            |
+            <a href="../headers/disclaimer.html">Disclaimer</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="side-nav">
+            <hr>
+            <p>Security</p>
+            <hr>
+            <a href="./security-prac.html" class="content-link">Security Best Practices</a>
+            <hr>
+            <a href="./security-threat.html" class="content-link">Security Threat</a>
+            <hr>
+            <a href="./sec-proto.html" class="content-link">Security Protocols</a>
+            <hr>
+            <p>Authentication</p>
+            <hr>
+            <a href="auth-user.html" class="content-link">User Authentication</a>
+            <hr>
+            <a href="auth-multi.html" class="content-link">Multi-factor authentication</a>
+            <hr>
+            <a href="auth-methods.html" class="content-link">Authentication methods</a>
+            <hr>
+            <p>Encryption</p>
+            <hr>
+            <a href="encrypt-data.html" class="content-link">Data encryption</a>
+            <hr>
+            <a href="encrypt-algo.html" class="content-link">Encryption algorithms</a>
+            <hr>
+            <a href="encrypt-key.html" class="content-link">Encryption keys</a>
+            <hr>
+            <p>Firewall</p>
+            <hr>
+            <a href="fire-conf.html" class="content-link">Firewall configurations</a>
+            <hr>
+            <a href="fire-net.html" class="content-link">Network firewalls</a>
+            <hr>
+            <a href="fire-apps.html" class="content-link">Application firewalls</a>
+            <hr>
+            <p>Audit</p>
+            <hr>
+            <a href="audit-sec.html" class="content-link">Security audits</a>
+            <hr>
+            <a href="audit.comply.html" class="content-link">Compliance audits</a>
+            <hr>
+            <a href="audit-risk.html" class="content-link">Risk assessments</a>
+            <hr>
+            <p>Certificate</p>
+            <hr>
+            <a href="cert-ssl.html" class="content-link">SSL/TLS certificates</a>
+            <hr>
+            <a href="cert-digi.html" class="content-link">Digital certificates</a>
+            <hr>
+            <a href="cert-auth.html" class="content-link">Certificate authorities</a>
+            <hr>
+        </div>
+
+        <div class="content">
+            <h1>Certificate Authorities
+            </h1>
+            <h2>Root Certificates</h2>            
+            <p>Certificate authorities issue digital certificates, which include encryption keys and other information about the certificate holder. Certificate authorities are also responsible for issuing root certificates, which are used to verify the authenticity of other certificates.</p>
+            
+            <h2>Intermediate Certificates</h2>
+            <p>Certificate authorities may also issue intermediate certificates, which are used to create a chain of trust between the root certificate and the end user's certificate. Intermediate certificates are used to issue end user certificates and are signed by the root certificate.</p>
+            
+            <h2>Certificate Revocation</h2>
+            <p>Certificate authorities are responsible for revoking certificates that have been compromised or are no longer needed. Certificate revocation ensures that compromised certificates cannot be used to impersonate authorized parties.</p>
+            
+            <h2>Trust Model</h2>
+            <p> The trust model used by certificate authorities is critical to the security of SSL/TLS encryption. If a certificate authority is compromised or issues fraudulent certificates, it can undermine the trust in the entire SSL/TLS ecosystem. As a result, certificate authorities are subject to strict regulatory requirements and are audited regularly to ensure that they are following best practices.</p>
+
+
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Coffee Life co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
