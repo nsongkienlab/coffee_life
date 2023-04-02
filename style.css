@@ -7,6 +7,7 @@
     color: white;
     position: sticky;
     top: 0;
+    background-image: url("./img/13466760_0_final.jpg");
     
 
 }
@@ -119,6 +120,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("./img/13453690_0_final.jpg");
 }
 
 
