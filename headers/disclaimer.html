@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,39 +10,91 @@
         body {
             background-color: #ffffff;
         }
-        footer {
-            background-color: #ffffff;
-            padding: 10px;
-            text-align: center;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    
-        .heading{
-    margin:0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: gray;
-    color: white;
-    position: sticky;
-    top: 0; 
 
-}
+        a {
+            text-decoration: none;
+        }
+
+        .heading a {
+            color: white;
+            text-decoration: inherit;
+        }
+
+        .nav a:visited {
+            color: white;
+        }
+
+        .nav {
+            display: flex;
+            margin-right: 40px;
+            align-items: center;
+            gap: 7px;
+            font-size: 20px;
+        }
+
+        li a:visited,
+        li a {
+            color: blue;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+
+        li a:active {
+            font-style: italic;
+            border: 1cm;
+            border-color: burlywood;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .heading {
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: gray;
+            color: white;
+            position: sticky;
+            top: 0;
+
+        }
     </style>
 </head>
+
 <body>
     <div class="content">
         <div class="heading">
             <div class="left">
-                <a href="../index.html"><h2>Disclaimer</h2></a>
-            </div>        
+                <a href="../index.html">
+                    <h2>Coffee Life</h2>
+                </a>
+            </div>
+            <div class="nav">
+                <a href="../headers/support.html">Support</a>
+                |
+                <a href="../headers/copyright.html">Copyright</a>
+                |
+                <a href="../headers/disclaimer.html">Disclaimer</a>
+            </div>
         </div>
-    <p>
-        We take great pleasure in our products and services at Coffee Life, and we are dedicated to providing our clients with the greatest quality coffee and customer experience possible.
+        <p>
+            We take great pleasure in our products and services at Coffee Life, and we are dedicated to providing our
+            clients with the greatest quality coffee and customer experience possible.
     </div>
-        Thank you for choosing Coffee Life; we hope to serve you for many years to come.
+    Thank you for choosing Coffee Life; we hope to serve you for many years to come.
     </p>
 
     <footer>
@@ -49,4 +102,5 @@
     </footer>
 
 </body>
+
 </html>

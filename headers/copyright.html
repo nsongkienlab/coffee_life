@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +12,49 @@
             margin: 0;
             padding: 0;
         }
-        .content {
-            padding: 20px;
-            min-height: calc(100vh - 100px); /* subtract height of footer */
+
+        a {
+            text-decoration: none;
         }
+
+        .heading a {
+            color: white;
+            text-decoration: inherit;
+        }
+
+        .content {
+            padding: 30px;
+            min-height: calc(100vh - 100px);
+            /* subtract height of footer */
+        }
+
+        .nav a:visited {
+            color: white;
+        }
+
+        .nav {
+            display: flex;
+            margin-right: 40px;
+            align-items: center;
+            gap: 7px;
+            font-size: 20px;
+        }
+
+        li a:visited,
+        li a {
+            color: blue;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+
+        li a:active {
+            font-style: italic;
+            border: 1cm;
+            border-color: burlywood;
+        }
+
         footer {
             position: fixed;
             bottom: 0;
@@ -27,40 +67,49 @@
             justify-content: center;
             align-items: center;
         }
-        .heading{
-    margin:0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: gray;
-    color: white;
-    position: sticky;
-    top: 0; 
 
-}
+        .heading {
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: gray;
+            color: white;
+            position: sticky;
+            top: 0;
+
         }
     </style>
 </head>
+
 <body>
     <div class="content">
         <div class="heading">
             <div class="left">
-                <a href="../index.html"><h2>Copyright</h2></a>
-            </div>        
-    
+                <a href="../index.html">
+                    <h2>Coffee life</h2>
+                </a>
+            </div>
+            <div class="nav">
+                <a href="../headers/support.html">Support</a>
+                |
+                <a href="../headers/copyright.html">Copyright</a>
+                |
+                <a href="../headers/disclaimer.html">Disclaimer</a>
+            </div>
+
+        </div>
+        <p>Coffee Life Co. owns all of the photos and content on this website, and they may not be used or reproduced
+            without permission. Any illegal use or replication is strictly forbidden and may lead to legal action..</p>
     </div>
-    <p>Coffee Life Co. owns all of the photos and content on this website, and they may not be used or reproduced without permission. Any illegal use or replication is strictly forbidden and may lead to legal action..</p>
-</div>
 
-<footer>
-    <p>&copy; 2023 Coffee Life co. All rights reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; 2023 Coffee Life co. All rights reserved.</p>
+    </footer>
 
-<script>
+    <script>
     // remove the goBack function and script
-</script>
+    </script>
 </body>
+
 </html>
-
-
-
